@@ -58,8 +58,8 @@ const Navbar = () => {
         </ul>
       ) : (
         <div>
-          <p>Welcome, {user.displayName}</p>
-          <p className="cursor-pointer" onClick={handleSignOut}>
+          <p id="navp">Welcome, {user.displayName}</p>
+          <p id="navp" className="cursor-pointer" onClick={handleSignOut}>
             Sign out
           </p>
         </div>

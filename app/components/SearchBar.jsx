@@ -7,13 +7,13 @@ const SearchBar = ({ searchQuery, handleSearchChange }) => {
         Search:
       </label>
       <div className="flex items-center">
-        <input
+      <input
           type="text"
           id="search"
           name="search"
           value={searchQuery}
           onChange={handleSearchChange}
-          className="border border-gray-300 p-2 rounded-md w-full mr-2"
+          className="border border-gray-300 p-2 rounded-md w-full mr-2 navp"
         />
         <button
           className="bg-blue-500 text-white px-4 py-2 rounded-md"

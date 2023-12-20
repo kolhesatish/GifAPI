@@ -36,3 +36,14 @@ font-style: normal;
 font-weight: 500;
 line-height: 30px; /* 125% */
 }
+label,#search {
+  color: #333; 
+} 
+
+p {
+  color: #333; 
+}
+
+#navp {
+  color: white;
+}
